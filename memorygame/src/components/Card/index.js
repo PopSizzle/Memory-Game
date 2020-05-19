@@ -6,7 +6,7 @@ function Card(props) {
     <div
       className="card"
     >
-    <img src="./dogPictures/dog1.jpg" alt="dog picture" />
+    <img src={props.src} alt="dog picture" />
     </div>
   );
 }
